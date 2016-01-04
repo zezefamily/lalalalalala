@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "ArtWorkDetailInfoViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +17,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    ArtWorkDetailInfoViewController *vc = [[ArtWorkDetailInfoViewController alloc]init];
+    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:vc];
+    self.window.rootViewController = nav;
+    
     return YES;
 }
 

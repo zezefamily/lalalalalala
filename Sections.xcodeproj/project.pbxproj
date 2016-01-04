@@ -13,6 +13,11 @@
 		F8DD85531C3A0E5200E7F0B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8DD85511C3A0E5200E7F0B1 /* Main.storyboard */; };
 		F8DD85551C3A0E5200E7F0B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8DD85541C3A0E5200E7F0B1 /* Assets.xcassets */; };
 		F8DD85581C3A0E5200E7F0B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8DD85561C3A0E5200E7F0B1 /* LaunchScreen.storyboard */; };
+		F8DD85611C3A0EEB00E7F0B1 /* ArtWorkDetailInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8DD85601C3A0EEB00E7F0B1 /* ArtWorkDetailInfoViewController.m */; };
+		F8DD85651C3A10D100E7F0B1 /* ArtWorkInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F8DD85631C3A10D100E7F0B1 /* ArtWorkInfoCell.m */; };
+		F8DD85661C3A10D100E7F0B1 /* ArtWorkInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8DD85641C3A10D100E7F0B1 /* ArtWorkInfoCell.xib */; };
+		F8DD856A1C3A10EB00E7F0B1 /* ArtWorkPublicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F8DD85681C3A10EB00E7F0B1 /* ArtWorkPublicCell.m */; };
+		F8DD856B1C3A10EB00E7F0B1 /* ArtWorkPublicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8DD85691C3A10EB00E7F0B1 /* ArtWorkPublicCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,14 @@
 		F8DD85541C3A0E5200E7F0B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8DD85571C3A0E5200E7F0B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F8DD85591C3A0E5200E7F0B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8DD855F1C3A0EEB00E7F0B1 /* ArtWorkDetailInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArtWorkDetailInfoViewController.h; sourceTree = "<group>"; };
+		F8DD85601C3A0EEB00E7F0B1 /* ArtWorkDetailInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArtWorkDetailInfoViewController.m; sourceTree = "<group>"; };
+		F8DD85621C3A10D100E7F0B1 /* ArtWorkInfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArtWorkInfoCell.h; sourceTree = "<group>"; };
+		F8DD85631C3A10D100E7F0B1 /* ArtWorkInfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArtWorkInfoCell.m; sourceTree = "<group>"; };
+		F8DD85641C3A10D100E7F0B1 /* ArtWorkInfoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ArtWorkInfoCell.xib; sourceTree = "<group>"; };
+		F8DD85671C3A10EB00E7F0B1 /* ArtWorkPublicCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArtWorkPublicCell.h; sourceTree = "<group>"; };
+		F8DD85681C3A10EB00E7F0B1 /* ArtWorkPublicCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArtWorkPublicCell.m; sourceTree = "<group>"; };
+		F8DD85691C3A10EB00E7F0B1 /* ArtWorkPublicCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ArtWorkPublicCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +71,7 @@
 		F8DD85471C3A0E5200E7F0B1 /* Sections */ = {
 			isa = PBXGroup;
 			children = (
+				F8DD856C1C3A5FC000E7F0B1 /* Class */,
 				F8DD854B1C3A0E5200E7F0B1 /* AppDelegate.h */,
 				F8DD854C1C3A0E5200E7F0B1 /* AppDelegate.m */,
 				F8DD854E1C3A0E5200E7F0B1 /* ViewController.h */,
@@ -77,6 +91,29 @@
 				F8DD85491C3A0E5200E7F0B1 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F8DD856C1C3A5FC000E7F0B1 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				F8DD855F1C3A0EEB00E7F0B1 /* ArtWorkDetailInfoViewController.h */,
+				F8DD85601C3A0EEB00E7F0B1 /* ArtWorkDetailInfoViewController.m */,
+				F8DD856D1C3A5FC900E7F0B1 /* cells */,
+			);
+			name = Class;
+			sourceTree = "<group>";
+		};
+		F8DD856D1C3A5FC900E7F0B1 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				F8DD85621C3A10D100E7F0B1 /* ArtWorkInfoCell.h */,
+				F8DD85631C3A10D100E7F0B1 /* ArtWorkInfoCell.m */,
+				F8DD85641C3A10D100E7F0B1 /* ArtWorkInfoCell.xib */,
+				F8DD85671C3A10EB00E7F0B1 /* ArtWorkPublicCell.h */,
+				F8DD85681C3A10EB00E7F0B1 /* ArtWorkPublicCell.m */,
+				F8DD85691C3A10EB00E7F0B1 /* ArtWorkPublicCell.xib */,
+			);
+			name = cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +175,8 @@
 			files = (
 				F8DD85581C3A0E5200E7F0B1 /* LaunchScreen.storyboard in Resources */,
 				F8DD85551C3A0E5200E7F0B1 /* Assets.xcassets in Resources */,
+				F8DD856B1C3A10EB00E7F0B1 /* ArtWorkPublicCell.xib in Resources */,
+				F8DD85661C3A10D100E7F0B1 /* ArtWorkInfoCell.xib in Resources */,
 				F8DD85531C3A0E5200E7F0B1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -149,9 +188,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8DD85611C3A0EEB00E7F0B1 /* ArtWorkDetailInfoViewController.m in Sources */,
 				F8DD85501C3A0E5200E7F0B1 /* ViewController.m in Sources */,
+				F8DD85651C3A10D100E7F0B1 /* ArtWorkInfoCell.m in Sources */,
 				F8DD854D1C3A0E5200E7F0B1 /* AppDelegate.m in Sources */,
 				F8DD854A1C3A0E5200E7F0B1 /* main.m in Sources */,
+				F8DD856A1C3A10EB00E7F0B1 /* ArtWorkPublicCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
